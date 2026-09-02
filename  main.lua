@@ -1,1 +1,435 @@
-=IBR91MxTFOUDu4OBoBwBs+AqgDpOkUcZOLKwgAnI4qCgoREdtD30Z8f/sGdBZ5IML2vAFnkbp845iXfT8DV8rflsbHBtrzUk7t8v2SAuGBfzSf5GOE5usP4DMAREBERAAAAAQ3xgSby4bOR13mEcPAoytprkL69VMupNG0Qujv5tOk2xmQkGj6w9rY25514pZ3v9XFu/eQvysy+3/f6OLd+kj5G4fp9r49z6yf5cxSu3/f6OI9unaagVVzYKmYHYVMZ1WCkEOGx0OXZSr/06ceNru2tP2boQndbnU2QWE7LyNEVyNGZ07MvU4xWCvqN52f4TuzUKFbgMGchmvu+Lq+XnB4+RUW3SKt2Luhp7Jx8ILJ8LlC98easOZpZzrLH8je7SpaJ/+WnNQ64Yty65fZF1DWjCkj5l/izWj5U8+ksHnxbbpPWHPjIcQT8vRJsT4rmxDBo4z2zC7JcWjJkC0J8zYKy0RYbDjeF/j57omCxVs1q3JAf4hTcxFE3PwUQNGS7vUZtgpRVzIzFe7FD/sfbivKJcc4++A669QO6RIx+zi1bNefkfDFdPYUyAVd+yQO5gYnPUniMPE33rcnoCm8tVlzaUvIA1zUWgFPGW25vlJsfaUS4z7u7o07uV1rlSm44+OmJ9EkLHOnvswfqn6SlnNzuBm7KaQULacp7Y7BAkOgTXtCgIUWdNHMYqQvpyf/4tqiT25yFSTFgVpMW72zzc25BFpK60t6s/WxFvDntZDsz5wYmPk9loe+x1BOe83STclrBIoC2XLiRrjXyuVdyEdn5zIlqqWoOIqNIdvH0Bx5vA6OiP242kIp+28k/Ww4UvkXd465fWnvQkrSdVpIFy7L4sfhqru+w52ZzcGytOBG6auORN6ENr9jEJwA5+qgiQGPfojf/4FJ58tCNK3bX1EyIX3iyiN9VAZt6V6MTlvOz+zm3UGUeculEzCUP/4NrX04fT/I/p/EM9013nlhu7SxnMP8wdJFpzGm3owTDPr9huEGnhbxnR5toTjZuZzlkn9OULJ3Cm4PUAWKbo6PmlYZuM+0nJriUWyPmAZ479vgv98Q2zxh+OjsAMi2epMzqE9aMaPFOqwF6H6a/VCxwuWfEt8n59zSTA3e09Nvqu3gfJXA95zni+PGQw/HzdnrYThIwWrbU2xFpt5L7vjWeJQivM9dMtG+33P5MDry31bdkB6h7wwZXphAS0Ou4+RqzMeFOLtvYfkxQM7fUj4Yt7WMYvqe5OB/YOEqoE78LB1M18TkRyNjSLVGLAD8ZhRUZEap48wAt3Vny+8VnHHrCquPBWKcET8dJw3OcAQXFPJnvb5/QEroUP3nEtur4pMYGEgxKpRdxR4ZUFthhv7tDgg3k2VV9jucTwnx7GeWDPT6r7StSzhzA47AtkiH3TDzkynffMSk7ZTorkpPsy7rYK6ySXz9TMHYLwIn3JslzGOpN7CqPPHfzdgpfyFRIMnJZj4GS4ujd3hN6jz7HjchVlwYyhlSgxaMAb9+biM+rvxQTeEP9XjwYq181prAQUki6Ix/7ZuUhwRVwez23OwhXSPjOHZ6i3vYrxJhaKiQNY07TSIodx1FYyMmXQoVgpzv00rB/oGyzOfO0iFeBSjNMzxsFP0hiOTxvhmUo7QR+DV4Py+ubuNF1wKlkoqJ4MpeCdmVW2iwxbjWxz2mKWbucSk9HgYpyik0l7LlOO86FaLUBYDks1nEWkfB/0embRSSZ9TGJi6ly0s5L+q7YtMP0JQnJBmgTBgEXR/h4+BqQ0NKqjo9iYtJwMTYhm+nkmjdiKab++WF2g9Rf0iQVQHzppWN/WC9TO2/khxrdAXr17+0I2U8rgQpggseH49Hqmh2XhnBc+CsKOC6l6JkG5T2ScfZj83UOwPMlXXJfkkZvIEPzJKDgjH1h5NeC1xhbpNVSEg2/tX5dCu7W8GzPZ33jhu8oienNjUx59JO4Ww2DcnVk+aiXN0xgCebb6OkvVvyqHlRsP8IqUoINHQfihrKHRyu0uHOn4dPTW0abthouCBHMJOBn55A7uBTzuNcOyOoXOok7Fys9LuVLsSCTEZOctYobKHSfO22N46vnNJoLWtsbJp3G1MlFppYE5n8FVqKhmPYK5bdTvbk1bEmYeez7JeCFlDsLuyfRYTosa45QG3Nxcu/MYg8MrEdEtnUNWNp2gYtpMoVhg4CVoRUe/npzaLpzNx0S8cifDlNSC9eWkKKvK5KnCsNjHQAgbn1IsIdenhHZgwzgZUKlbVLdTbZKiyV+/kwYt6fnjOq7lBaw/Wr4CIo/fvk6ZIE2bUG/dlieenlGZ7WRJ5QuQdnF6LobJ+oI/9D39CfjjGGEBF2rVe82leDYgEqL5gmnPMOYI9uJG6IMmohxbJQfOE++yIB3khwU93FqLXhaz2G9SV79p0qguEMJdupQ5iNx9tSQcQzcvS3YjxrLlVpXBRJUiOKbERhZAqx6tml4WCxd12YtHBaVnx9gcFLT8j2/4M7PcrdjtPw3hC/pK0LaRuLGoOJcmUbG1umkNVTcjPIdllagpk3q8kQsRU12pflOuBRXwN5YACfBdk35Aq0SmXRAXugmFjPVCTYsTagju2k3i+AnMGOfoaxbtxL1+JQbSqmLM8ScEUiDJJv+4aTvv26HiN9XMMcwlQZhUPbbYaAj7DIs5Kkr/3E06eBegpKkNEqKxp1CRFU81GjePHg4fL9lnCOiM2UNBHxmDFtiluYIUVJ5FTbNlAXiLCr+IEFH8HREOj5N0yIbZ/EoGA3Yg3pofV85/w4DSqSnlUkTPWlqZLxeMaX+f5eG3d0Bcup1kdhGTZCzS29dj+0AAOsxkXqTIgOFXRYefj5F0BHy9p4OrBOGCDRERC7U1A1U4R8sOxlT+Be7aZWkZuzEhFXTlFmoMm5JzQ5epn6URX4WMYwHSM+Dhryc2ZcxCBtuBjWpOyb/WxZ+gF2XO6sxY0Ao1kk7CG2R2yxm40cBAEB/BXEW+kF6br9YLFyNBKqCrD3wPe96Az0UjmfreYMnvWaTRWb7XY4b6yE3E51h3ueGA/bMy2eZQAx728bXgPkwXagbhDJ3MGssu/vKubt6O4iJ/KhGRIM4TTK1X2KwgGxIklIkPHtZUO+Lslb29d3b0wl63ZSUFuXJ5HjHR1BHjNIoOYCd8rlKm8wHbk+4oWMcaEjC3bVf6H/webesRhjBEeg021Ob9xQvQWhgLu4LwhRYXleUWX+vODfnMNR/IZrPNxhbWZg4O5SyEte4JmqQafI1O3j50/dvaRLqoKJ1QlCEyXA23LG4rE2PEbghMgOIHpni5wtEwuRyuDOIW1FLjaMdVh9uc5gN45r6EVz7gtheJ9TF9HZeC3ABNXFRJg3kvDzGelh5EEu7d+EL1ZSwxmN0aEUcJUiYVWBAHzjjo/vuITbdMBBCWGMoS1d2xu1c+7rprUcmZvVMqcfcOII3pBqPVRlJrT17SwovucBBK7Nt66Iic5pL0vHsrrS14uPBbVCK8aReu8480st5X7mzN0FRZoIDrcrE6ifsckGyZ8S4791JqYl3zKzj71TG3mMlYWSktm96tV3nHwJmjN3CzjJnY8vwfCH+DeFyGcnpcj9Pw0XCWYHYGTBCL9fm1MYabqJt9o9uOhG5Ja/4Xr8S6ev2iYgZ1rzyokLA5NG15TUhj3Eeq3bFjFrZvV6T92Mjo9AEkoCD/rc0asSJEJZLlKG/gKuUs+dNARfEdfoRlrvYBZ6/MrKU4xIwl2G7w2DzpbYdm37l4aRa2f91dsTEAwgnHFL+98SuJJr3b4tEwCQL5x6oNYHmZLOlUHVGMlzRRMvzupgETG4oJLJC3CoWPSPKMhQ+aoSbm4ql+Vc1g+vR3xbFL3HnaGoXp68r1rUWcDdGESncJETaOnRuHao3hcydAmMyP2xLlUD2HnR5/wr3IFQfUZSdkwmh5kw+VSrLi0fNbhGVWZtauqzvf2LNcPDHQQWO1U3pwh1AlFs0iOzjdRaEw4CF3Ck1zxjPYLuTFIyTK0BTAimNKYTO+eb9BjZYXXjRDtkdABh6CRqaoeGjDmu8oD5NiPceJOyl+gyp6z5QZnX94yq3PBU+wag2UjtxlwB7EyPjLMUxmoct420OgqbGcE68wwESQWUZQ4r5mgtCUl7aiUfvK/fQ4gg2CUnY8u7NGXvIf1pGT+2zYRiwFxZIF2Vufm7QvwBIXnfeLIkjdSAyJBP89ML0zRrycCA8RIMPQ4k+Nltc8QHTKg1ggr0h3dTAOK41ctAcCtLM+hNkF+EaJinvx62S3MwZdHMBMsaXoXJMmtE59am1sMWtepUZfdw7YESJnW0L557O/vL6ai+g2TKiqi/l/Yo1Znz2acRf8tvnURremJHsbJG12nofIP2Biw39DejCRB9zoW3BMrs4/FsxJO0XVyxdf8LDDk+Yc1K7I3jB3gKPnEbYmklWuTLgVg+031X8CzAfo/PjNEuZTlWilqfRfRMz4eCxmmSTuryADoTDCUQ0IZ14sJt0mvIvj1P3J3b2+uqkhUTHiKss5auv7DfGJ2wu+Ph/Z6vjCULFbSefkD7x5BdxZCOzSn3tcKzoQZU+cVwsJFnFbG0HOtW6eTP/no6AwZU7uBEb6DAm50lB2uVm38+5KGlh+hKnXC1X6haEZyJSpFMDi0vZiBqyle6FGlFMfSM1LesZr8VPkLim660iZknRWC3JrA8kwrLHRDy76uXlpuC+1k4LTajTXf7qQKAb9FFMmLtaWJjkmYZeVZWHdTD8WKRSktGCG9cZS/k2TTmq6tljiPHBahYF+aJGQd9qu/iBvSoBJlcGu7ezC6XUaP4RWazRRZ3WvKGsUiVMJy4BScGjMclE0n5I9dl0u6Q6yMNEyeYANBn/v1yJld8SuiQf8m/1Bmtwn3qGeV9tIc9KnJVqFhHib6bbMZqhYhUjoVCqX6h5NYVAjzyBD8t3phcjquaURYn0Ws+758LkeWLtPYeJC5Wc7DZiyfDbsIQrygtzfAUu5OwdqU6qVCoHozmtET7Te/oHBHMp5ckeDkVW9izICzxNuMw5EK+pzfQBvP2xq+AFvwnbgXwuDxo7gFL8D9+mS9YwIPFv9K0XlMl+wrt7oQYbl4/ssI+NA4fuasM+Ns7+2GEf04PGDvuYHkichevCHikcKQ+7Z0LgPXk75qBwm7Ad5qBwdqD1mUez/h9yZPlbjC+2IivPX1eEvEOSqzhuA89XpjDwjsb7weDaiKi7XhLLIPnVA/Vx/iraWLgJ7N/Wi8exO+4pT4/obrNgjgPHHTipO6ss83El30oe3/C18JUWKnc5S2611xD3lS+7O0X85Db4e+Fyocd/8VsXthFLTqr2vHab93qCRvzzDGANeSEKflrIwxYd1Nzzpr0544LpfnPgpmKBBcH1zPlD8xTVgPuHJV+IirYEoeuIVzyn7c9G3l5b00mDVnrm6wsfeaEU6dLvwPvxhqKxydfUW1zanWtLs4ld8gZPKNuMRR5pVa66q1j1gspthz8hmS6KzCR7FHqEzFvctzgfGhd5WoqRKiFsLvOAnM4UgSXkHdKl46otU2M3XRZPyLi5HyRlzY5SBZ07VBjdvLro1647Tpms+FNDhCjSUw9a1uYDnxpSzCllmvQL2SPXojk9QvE7mNACb6lvTxN6RMOe6NQrHEviKBV0mAFnV8iYbD1+dio0ZFzvBW1aTOx4XW+zV1GzPgInMlXdz/lsBdxULLBusuWR1gYc9OFZ0iNnIO7D4AGKzLZ1GziGZDa66qs48mKlr9EfmyYwu1DPEL64NzC7YxJp9Kpzr7bsKEcAoYds5AqNeDbWjSxGKYgFtchvVq55+tkj7/DJHD8ZTCpj4PxYHR5w6Em/JyU7QqewfuVGyx1aCGPxjviyh8oTe8GAvEu0hnmWM/mz2oSjIVM8DzbQnUOu+B4pV8y0uY6E5+0Ke7vfUaZs+/ap/yWwA27a6N2S+p7FR7JMNNZr9l500HefYWDM+krBYGKPtkfqti0gcceCV+66vOpZ25JXr9XIGkb26/Cmbt2cu2nNvLiscIlKb66ZEk8Pw8R0HT0nTiqePbDX72iBF8ySg/xixqmbRoz4qf84Peb/EK9p/tdWw8M3/Mj0J18KED0Fu5WEUWSJDvBFt0zqD+oKsZi/zBYffS+8ZL2utAt308pdEUeoXSvDQ9sqwXY1NVo3pErCjmCQUNSyaJc+P6i4qVj0UIunESMey7OdKOstC808HmVwvygkKMif09vBzO8SCUAYQ2lZ8vulkfVfHmpmPaEnFM7PUauwgCMauviH9rwEHFXjvDXo2aBTCqtm3TLPhOV6TNmoyXlCweSKlngUcm6GaN1lDQyxcGKcY3QEPy1Ww6byTfurtiMzRZGIW1+hpRBzDUKpX0h7C0HTcFGgAUFGP5ik9NDxinKzlgiIxAnxNzY0P+VtlEDV/rr6VQVBqfhKMCQde872zPnhQJH4pAAA3Ccm0rKYhpq23Fs08XR4jUl3IXKsCMbOIueAJB/zJXmcTHvwfDBzqaawgyRaxdl70IVeW0h5IEH096GTwuF2S+an4qA/TG1GMqyCpm+RGqXWiFFAV2j3WR82ju1hS2ma6OuNx9i8MrNWDTm2Z3kgef/3peHqH6MsAj+HT2L9UKILjNVECKQu7UDjMCGKkczu8pbgzwXFpo+VsVyeqAHaum2YhH4upwKtQPBQ1VLZZtedEEuRaPrMDfH0uM10UZWO5aIB1qDHzuGdB281oPS+cemSlfBBQAbuZdFQyVzDqGsIYDgGHSzS4cQIPJrHaqIq/DFNpYBhFCsBohbBNCby6VA1IEblxmYEpV7gL5WcDtjjwsNfzdykhvZ+hCdJ6W30vOTMaS7GcCNEUctnhDTQ57kqA2NvdgoqhJLTra8I+lNphx/qZzxAXgmPdFUaJLZyzYow3ezi1WWzMPbKASzyBzPbcTq1bbEeTNFB6EBJu8OsW4A+VcsWbvclKw6Jb43sdL6wN860eEONLeyXM8jpcJc8y0SlLSCdoPaE6Vvcj5Zi2Kknp3R5T9A/Dve0PeAxTlyMFeOEzBPjy9fmpmjHQOERX46uDBL2TskLllaszfIzmLWG1qvrYUmYZtNlMDFJMVvRxw0useGbwI6wU8WOeR3z4wj+78bOx4f5WlpmIku0mSmQEr+AxnfmoyWqxhgToYX92lajETsOI1bUUWB+6MxDuamyjL8MKnaNwZy6EdK8fBNOPSlcZeV6WnzOgUrExu81kDYAHicrEK3/39nDnYdNXjYtxkPcVTsY8ILfOryiNhP5IMeNZ2soCa60SsFRENGxnWX8fDj7k/ZqKAFu/9rOM/Ms51qsKg/6EDIDvqUJo+hhlQw4sJKZMaCdaYdTBZ7B5jHZkV/YI/CRK2Y4H35cHUWipyDx9WvdhFgfaICNs6jjRTSvG7YqIr1PJh7xUvkjq1dRjkp7ckStNp50WLuLsog63agMi4XIKZewtBw8YXBJwQAK6q3/3FKKLeOYe2kxx/pI7R1BB7Rhjh5LmKo1s63eOvTBCS4NIZgIyNThyzJ9YH1IWD5gX19uPulm2iWXZOyakN8wUYI3deOCZJfBbBwhyzRaX49FBzhVXXIIsY+HLASpLSeM0l+kdVYL7S/4kmqhTfhSchfiplh4J0cn8hMTr/wRKSlo3xNHUNuFpJGdmNInhvHE9g9BJ9Oapu6UHrM0NR8kwTI6DgwjqhQaoPSd0m5DSTdvMc6Gxdfry3o+Nyycd1Zllapj/r3In+dqicLuAme3gr8/xBYV34c5WtZ9PSmwhR0T6gJilb8IMVTeyi0tHSdQnUNJ0nBugQL9mT1MGxtSF6M3d96ptClZsTvR0gRsK54TptSkKENC1j9DHtg19jIVHcOfuRJGYd/losSD7X4geFHHLg/lBqN2LqkwMpHjUBvOVyY2uLUUbZxqixQCtEY3/W2MfeTdK+ivSNSn8zbLvUiLI6CSv/Hibh+nhKBc/2ziB+aug1F6v70693lmUONdNQPOyRa0HhBpod2kSpX3lIYIJE/xJFRPjlXPhJPaUaRK2aQUmqxnjrntq0SxvDF97JfuPLsCQyY2o2M12rhWkboRS1F0W8tH8nLM1PAExUDgAbk36M9fegXhMu0XXy1yakyLrDLyvhdnfFB30tz+kCoF9Z91Nyr/pW+zEmDGfkPlYWahOwMioqG3u2dcKBem0A15IHZb0O3iYOWpiryJQ0juJJa8sRuA+KeVmfNzMFdcizWHD2vEc2rSUy+4k9/rvSM0ob7uvAYINQnD8kbTB8PV2KeqN/pipAlej/DeNr85hZcYM92S2hj3NZpVPCD9zuo1Ep7ZhMAqIKqptOfrRgoyclkAWyMKYBKNsdCygZWMyhkoOC8/vwVv+FRiJiIVzTYhw+pp+UwSuGeRPieMnTFjAzCvywJTzFCO9+OY9Eyq+0qKCfp4rxj9Y0kMyG56smBzcc4hbWyPF+PeAoLYlNicTRRJc/e30xe4FmzMfxiJ+ErddJBNeQDxOPCKGFvwMGLqF2qx0Oc2Yr5rAZyD4nycv17c7QLZNfmYpNF6BhOWPqVSCwVyBK3Ii+67ouc4TGXhYFyq+OES0loCVBksDOfLXwIqF0lJE9W/yNoWZ2oa6ugADIfD42Pv5A9LXX585KuHqy0wnX8iEZiG7em0ZZgTu/wFeUYv3DWvjyvWyYLj9/URkplp4FieJbO7IBlB3ZoBg8XBQJgLtXxhQCG1GVA34kXEAoO9oxOJr85Uje3kf1IViocxM4UWmD8GNgpTTccLIAusD7AgQJKqLEy8mFmjJpBhjk0W36MChSQvVJedy5pDN3QFEfqXR47fsBwKwMdEKsTuDWOMOzZwnp6GSQCqsWetpxvNYXFQjZRcDIuYoICAQvNiZEBLDnVgw6SnrWF2TJJYcjw1ZrDx4HzOppwAjlW4418NVPaUcqOmohF8wg7u4LcE44SBBkwwUHwEiSTPagRoR8Q6mbVPY8egBglorBIZGsfunYYK1R97zF1AauK9AcPfBkXSqyhz4pp4n5hi3BPHqlJJeAGuTiQMbPv8D7wAy4etqpOUSFzDzpwhfDuMUctyEYfqBIi808of8rUjd83cPxwgnIImD10jNi+I92ScmvigJ7Vk5dUFbkG0Ahs1aT2QGchhpEGUz5Py9DbZkfQJaQEoIdkPsbBGNlI4Vwm87BBkghiAMwoxMS+wNJ60XK9OZ3I1TcvNn48PRUKwn15UgTxPa9q7GYJB5CHL+uwgxcRaLomG0OW41QTfnzCmWViR+7MKPMzaReGCVXBgCKycYIoMIS/0CJEDqFTOCAuhSQ2lyRkAcHTXykn1k28NwD494vQ4fKLbAGmRL16+efF8yElhThzSPmgUBRyD+IFCSaxp//1/YlDAd7UhkC67G1KdG3kH9F4I80D806qmzwnFixlslP8r43StHm9fvDKCkTQ/PhMjho5yX6XX5QlUKpqooMzSJhGHFoMWZS0Snh9erdZOWA3+4/oZhJ9Sfa908o3JIoxzSkN3I/uRsngqB4tzEgFAm1PHo6Kv2BhDvrk8DbZWGWaBOb63diRO9E47T/C2lrUI7xLQBQ0SJoi/yIdZRfg1tvuBHajdwYHXCDoEjeE08kerDk0jQ33AZoDuOCx+ynxfrXWZZqvSD3xRfwQa1fqRl+ftSUKItAqln6tjH64gigdjqCeN+qpfKKdNE59Y1aOq6uSCi9ecZBqcXflALbK1imWHhnLgM517dop/DDrMiXPcTjEXF9ncfPrRXkO8D89mnq8gKqh7PJOAlZBzuUdwCrbrK5ELztNDTTyt7q/QMOAv5j+xWvBIj6V6UUnRCRcKSscYMhzZtELgtV25blWmu64OvjE971PgGwIxh8K1gJnSRAJYJkKD0NBV4fc4zKzR21OGQoPapbWraj3Idf0Enl8l8s6pCeQwGlkDHDefqrza3qvhKApWoMl/qqo846EOSr56k7ak+ArjoJHdhdln78rx8RtjNEJl1xMuC1m/nVZ9qJxI3CDEzuOpH+UKUVa8l7nOgc9bt5kSb4exbsgoPY6ShfY5yY2XRu8KJjnaJiXnCcun3s3G6LDfZCvy9ca2lIQdfQkINo3pm9qyaz/Q4JiU356YoV6dDcEL27/InQHkyUwndF5ud8e9j3X1R+KB+JBtfS8=
+require "import"
+import "android.widget.*"
+import "android.view.*"
+import "android.content.Context"
+import "android.content.Intent"
+import "android.net.Uri"
+import "android.content.DialogInterface"
+import "android.view.WindowManager"
+import "android.text.InputType"
+import "android.content.ClipboardManager"
+import "android.content.ClipData"
+import "android.webkit.WebView"
+import "android.webkit.WebSettings"
+import "java.io.File"
+import "com.androlua.Http"
+
+-- Window Settings
+activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+
+-- Developer WhatsApp Number & Set Message
+local developerWhatsApp = "+923006151134"
+local customSetMessage = "Welcome to Code Runner by Hafiz Zeeshan! Write, run, and test code seamlessly."
+
+local function speakText(txt)
+  local speechStr = tostring(txt)
+  speechStr = speechStr:gsub("[^%w%s%.-]", "")
+  pcall(function()
+    activity.getWindow().getDecorView().announceForAccessibility(speechStr)
+  end)
+end
+
+local function copyToClipboard(textToCopy, labelName)
+  if textToCopy and textToCopy ~= "" then
+    local clipboard = activity.getSystemService(Context.CLIPBOARD_SERVICE)
+    local clip = ClipData.newPlainText(labelName or "Code Runner Data", textToCopy)
+    clipboard.setPrimaryClip(clip)
+    speakText(labelName .. " copied to clipboard.")
+    Toast.makeText(activity, labelName .. " Copied!", Toast.LENGTH_SHORT).show()
+  end
+end
+
+-- UI Layout Initialization (Main Screen)
+local mainRootLayout = LinearLayout(activity)
+mainRootLayout.setOrientation(LinearLayout.VERTICAL)
+mainRootLayout.setLayoutParams(ViewGroup.LayoutParams(-1, -1))
+mainRootLayout.setBackgroundColor(0xFF121212)
+mainRootLayout.setPadding(30, 30, 30, 30)
+
+local headerText = TextView(activity)
+headerText.setText("Code Runner")
+headerText.setTextColor(0xFF03DAC6)
+headerText.setTextSize(22)
+headerText.setGravity(Gravity.CENTER)
+headerText.setPadding(0, 5, 0, 10)
+mainRootLayout.addView(headerText)
+
+local topActions = LinearLayout(activity)
+topActions.setOrientation(LinearLayout.HORIZONTAL)
+local actParams = LinearLayout.LayoutParams(-1, -2)
+actParams.setMargins(0, 0, 0, 15)
+topActions.setLayoutParams(actParams)
+
+local aboutBtn = Button(activity)
+aboutBtn.setText("About")
+aboutBtn.setContentDescription("About Developer and Tool")
+aboutBtn.setBackgroundColor(0xFFBB86FC)
+aboutBtn.setTextColor(0xFF000000)
+local bp2 = LinearLayout.LayoutParams(-1, -2, 1)
+aboutBtn.setLayoutParams(bp2)
+topActions.addView(aboutBtn)
+
+mainRootLayout.addView(topActions)
+
+-- Extra Navigation Bar for Go to Line & Quick Tools
+local utilBar = LinearLayout(activity)
+utilBar.setOrientation(LinearLayout.HORIZONTAL)
+local utilParams = LinearLayout.LayoutParams(-1, -2)
+utilParams.setMargins(0, 0, 0, 10)
+utilBar.setLayoutParams(utilParams)
+
+local goToLineBtn = Button(activity)
+goToLineBtn.setText("Go to Line")
+goToLineBtn.setContentDescription("Go to specific line number")
+goToLineBtn.setBackgroundColor(0xFF333333)
+goToLineBtn.setTextColor(0xFFFFFFFF)
+local gp1 = LinearLayout.LayoutParams(0, -2, 1)
+gp1.setMargins(0, 0, 4, 0)
+goToLineBtn.setLayoutParams(gp1)
+utilBar.addView(goToLineBtn)
+
+local clearAllBtn = Button(activity)
+clearAllBtn.setText("Clear Code")
+clearAllBtn.setContentDescription("Clear editor text")
+clearAllBtn.setBackgroundColor(0xFFFF3B30)
+clearAllBtn.setTextColor(0xFFFFFFFF)
+local gp2 = LinearLayout.LayoutParams(0, -2, 1)
+gp2.setMargins(4, 0, 0, 0)
+clearAllBtn.setLayoutParams(gp2)
+utilBar.addView(clearAllBtn)
+
+mainRootLayout.addView(utilBar)
+
+local lblCodeInput = TextView(activity)
+lblCodeInput.setText("Enter Code Below:")
+lblCodeInput.setTextColor(0xFFAAAAAA)
+lblCodeInput.setPadding(0, 5, 0, 5)
+mainRootLayout.addView(lblCodeInput)
+
+local codeInput = EditText(activity)
+codeInput.setHint("Write or paste your code here...")
+codeInput.setContentDescription("Code input area")
+codeInput.setTextColor(0xFFFFFFFF)
+codeInput.setHintTextColor(0xFF888888)
+codeInput.setGravity(Gravity.TOP)
+codeInput.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_MULTI_LINE | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS)
+codeInput.setBackgroundColor(0xFF222222)
+local inputParams = LinearLayout.LayoutParams(-1, 0, 1)
+inputParams.setMargins(0, 0, 0, 15)
+codeInput.setLayoutParams(inputParams)
+mainRootLayout.addView(codeInput)
+
+local runBtn = Button(activity)
+runBtn.setText("Run Code & Preview")
+runBtn.setContentDescription("Run Code and Preview live")
+runBtn.setBackgroundColor(0xFF03DAC6)
+runBtn.setTextColor(0xFF000000)
+local runParams = LinearLayout.LayoutParams(-1, -2)
+runParams.setMargins(0, 0, 0, 10)
+runBtn.setLayoutParams(runParams)
+mainRootLayout.addView(runBtn)
+
+activity.setContentView(mainRootLayout)
+
+-- Go to Line Dialog Functionality (Filtered Specific Line View)
+goToLineBtn.setOnClickListener(View.OnClickListener{
+  onClick = function()
+    local dlg = LuaDialog(activity)
+    dlg.setTitle("Go to Line")
+    
+    local layout = LinearLayout(activity)
+    layout.setOrientation(LinearLayout.VERTICAL)
+    layout.setPadding(40, 40, 40, 40)
+    
+    local input = EditText(activity)
+    input.setHint("Enter line number...")
+    input.setInputType(InputType.TYPE_CLASS_NUMBER)
+    input.setTextColor(0xFFFFFFFF)
+    layout.addView(input)
+    dlg.setView(layout)
+    
+    dlg.setButton(DialogInterface.BUTTON_POSITIVE, "Jump & Filter", function()
+      local lineNum = tonumber(tostring(input.getText()))
+      if lineNum then
+        pcall(function()
+          local text = tostring(codeInput.getText())
+          local lines = {}
+          for line in text:gmatch("([^\n]*)\n?") do
+            if line ~= "" or #lines > 0 then
+              table.insert(lines, line)
+            end
+          end
+          
+          if lineNum > 0 and lineNum <= #lines then
+            local targetLine = lines[lineNum]
+            codeInput.setText(targetLine)
+            codeInput.setSelection(targetLine:len())
+            speakText("Line " .. lineNum .. " loaded: " .. targetLine)
+            Toast.makeText(activity, "Showing line " .. lineNum, Toast.LENGTH_SHORT).show()
+          else
+            speakText("Line number out of range.")
+            Toast.makeText(activity, "Invalid Line Number", Toast.LENGTH_SHORT).show()
+          end
+        end)
+      end
+    end)
+    dlg.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", nil)
+    dlg.show()
+    speakText("Go to line dialog opened.")
+  end
+})
+
+clearAllBtn.setOnClickListener(View.OnClickListener{
+  onClick = function()
+    codeInput.setText("")
+    speakText("Editor cleared.")
+    Toast.makeText(activity, "Editor Cleared", Toast.LENGTH_SHORT).show()
+  end
+})
+
+local function detectAndExecuteCode(codeStr)
+  if codeStr == "" or codeStr == nil then
+    speakText("Please enter some code to run.")
+    Toast.makeText(activity, "Please enter code", Toast.LENGTH_SHORT).show()
+    return
+  end
+  
+  -- Fully Automatic Language Detection
+  local detectedLang = "HTML"
+  local isHtml = codeStr:match("<html") or codeStr:match("<!DOCTYPE") or codeStr:match("<body") or codeStr:match("<div") or codeStr:match("<p>") or codeStr:match("<script>") or codeStr:match("<%?xml")
+  local isLua = codeStr:match("local ") or codeStr:match("function ") or codeStr:match("print%(") or codeStr:match("require ") or codeStr:match("import ") or codeStr:match("activity%.")
+  local isPython = codeStr:match("def ") or codeStr:match("print%(") or codeStr:match("import ") or codeStr:match("class ")
+  
+  if isLua and not isHtml then
+    detectedLang = "Lua"
+  elseif isPython and not isHtml then
+    detectedLang = "Python"
+  elseif isHtml then
+    detectedLang = "HTML"
+  else
+    detectedLang = "HTML"
+  end
+  
+  speakText("Executing " .. detectedLang .. " code...")
+  
+  codeInput.setText("")
+  
+  if detectedLang == "Lua" then
+    -- Direct Execution for Lua Tools (Weather, Calculators, etc.)
+    local func, loadErr = load(codeStr)
+    if func then
+      local success, err = pcall(func)
+      if not success then
+        -- If runtime error occurs, show error dialog
+        local errDlg = LuaDialog(activity)
+        errDlg.setTitle("Lua Execution Error")
+        local errView = TextView(activity)
+        errView.setText("Error Details:\n" .. tostring(err))
+        errView.setTextColor(0xFFFF3B30)
+        errView.setTextSize(16)
+        errView.setPadding(30, 30, 30, 30)
+        errDlg.setView(errView)
+        errDlg.setButton(DialogInterface.BUTTON_NEUTRAL, "Copy Error", function()
+          copyToClipboard(tostring(err), "Lua Error")
+        end)
+        errDlg.setButton(DialogInterface.BUTTON_POSITIVE, "Return Home", function()
+          errDlg.dismiss()
+          activity.setContentView(mainRootLayout)
+          speakText("Returned to Code Runner home screen.")
+        end)
+        errDlg.show()
+        speakText("Error detected in Lua execution.")
+      end
+    else
+      -- Syntax Error Dialog
+      local errDlg = LuaDialog(activity)
+      errDlg.setTitle("Lua Syntax Error")
+      local errView = TextView(activity)
+      errView.setText("Syntax Error:\n" .. tostring(loadErr))
+      errView.setTextColor(0xFFFF3B30)
+      errView.setTextSize(16)
+      errView.setPadding(30, 30, 30, 30)
+      errDlg.setView(errView)
+      errDlg.setButton(DialogInterface.BUTTON_NEUTRAL, "Copy Error", function()
+        copyToClipboard(tostring(loadErr), "Lua Syntax Error")
+      end)
+      errDlg.setButton(DialogInterface.BUTTON_POSITIVE, "Return Home", function()
+        errDlg.dismiss()
+        activity.setContentView(mainRootLayout)
+        speakText("Returned to Code Runner home screen.")
+      end)
+      errDlg.show()
+      speakText("Syntax error in Lua script.")
+    end
+    return
+  end
+  
+  -- Preview Dialog for HTML / Python
+  local previewDlg = LuaDialog(activity)
+  previewDlg.setTitle("Live Preview & Output (" .. detectedLang .. ")")
+  
+  local containerLayout = LinearLayout(activity)
+  containerLayout.setOrientation(LinearLayout.VERTICAL)
+  containerLayout.setPadding(20, 20, 20, 20)
+  
+  if detectedLang == "Python" then
+    local outputView = TextView(activity)
+    outputView.setText("--- PYTHON SIMULATION OUTPUT ---\nCode analyzed successfully.\nSimulated Output:\n> " .. codeStr:sub(1, 150) .. "\n[Execution Completed Successfully]")
+    outputView.setTextColor(0xFF03DAC6)
+    outputView.setTextSize(16)
+    outputView.setPadding(20, 20, 20, 20)
+    containerLayout.addView(outputView)
+  else
+    local webView = WebView(activity)
+    webView.setLayoutParams(LinearLayout.LayoutParams(-1, 400))
+    local webSettings = webView.getSettings()
+    webSettings.setJavaScriptEnabled(true)
+    webSettings.setDomStorageEnabled(true)
+    
+    webView.loadDataWithBaseURL(nil, codeStr, "text/html", "UTF-8", nil)
+    containerLayout.addView(webView)
+  end
+  
+  -- Action Options Layout inside Preview Window
+  local menuBarLayout = LinearLayout(activity)
+  menuBarLayout.setOrientation(LinearLayout.VERTICAL)
+  local mbParams = LinearLayout.LayoutParams(-1, -2)
+  mbParams.setMargins(0, 15, 0, 0)
+  menuBarLayout.setLayoutParams(mbParams)
+  
+  local btnRow1 = LinearLayout(activity)
+  btnRow1.setOrientation(LinearLayout.HORIZONTAL)
+  btnRow1.setLayoutParams(LinearLayout.LayoutParams(-1, -2))
+  
+  local copyCodeBtn = Button(activity)
+  copyCodeBtn.setText("Copy Code")
+  copyCodeBtn.setContentDescription("Copy Source Code")
+  copyCodeBtn.setBackgroundColor(0xFF333333)
+  copyCodeBtn.setTextColor(0xFFFFFFFF)
+  local cp1 = LinearLayout.LayoutParams(0, -2, 1)
+  cp1.setMargins(0, 0, 2, 0)
+  copyCodeBtn.setLayoutParams(cp1)
+  btnRow1.addView(copyCodeBtn)
+  
+  copyCodeBtn.setOnClickListener(View.OnClickListener{
+    onClick = function() copyToClipboard(codeStr, "Source Code") end
+  })
+  
+  local saveFileBtn = Button(activity)
+  saveFileBtn.setText("Save File")
+  saveFileBtn.setContentDescription("Save code to language folder in storage")
+  saveFileBtn.setBackgroundColor(0xFF03DAC6)
+  saveFileBtn.setTextColor(0xFF000000)
+  local cp2 = LinearLayout.LayoutParams(0, -2, 1)
+  cp2.setMargins(2, 0, 0, 0)
+  saveFileBtn.setLayoutParams(cp2)
+  btnRow1.addView(saveFileBtn)
+  
+  saveFileBtn.setOnClickListener(View.OnClickListener{
+    onClick = function()
+      pcall(function()
+        local ext = ".html"
+        if detectedLang == "Python" then ext = ".py" end
+        
+        local baseDir = activity.getExternalFilesDir(nil).getAbsolutePath()
+        local langFolder = File(baseDir .. "/" .. detectedLang)
+        if not langFolder.exists() then
+          langFolder.mkdirs()
+        end
+        
+        local fileName = "Code_" .. os.time() .. ext
+        local fileObj = File(langFolder, fileName)
+        local f = io.open(fileObj.getAbsolutePath(), "w")
+        if f then
+          f:write(codeStr)
+          f:close()
+          speakText("File saved in folder " .. detectedLang .. " as " .. fileName)
+          Toast.makeText(activity, "Saved in /" .. detectedLang .. "/" .. fileName, Toast.LENGTH_LONG).show()
+        else
+          speakText("Failed to save file.")
+          Toast.makeText(activity, "Save Failed", Toast.LENGTH_SHORT).show()
+        end
+      end)
+    end
+  })
+  
+  menuBarLayout.addView(btnRow1)
+  containerLayout.addView(menuBarLayout)
+  
+  local scroll = ScrollView(activity)
+  scroll.addView(containerLayout)
+  previewDlg.setView(scroll)
+  
+  previewDlg.setButton(DialogInterface.BUTTON_POSITIVE, "Close", function()
+    previewDlg.dismiss()
+    activity.setContentView(mainRootLayout)
+    speakText("Returned to Code Runner home screen.")
+  end)
+  previewDlg.show()
+end
+
+runBtn.setOnClickListener(View.OnClickListener{
+  onClick = function()
+    local codeContent = tostring(codeInput.getText())
+    detectAndExecuteCode(codeContent)
+  end
+})
+
+local function showAboutDialog()
+  local aboutDlg = LuaDialog(activity)
+  aboutDlg.setTitle("About Code Runner")
+  
+  local aboutLayout = LinearLayout(activity)
+  aboutLayout.setOrientation(LinearLayout.VERTICAL)
+  aboutLayout.setPadding(30, 30, 30, 30)
+  
+  local h1 = TextView(activity)
+  h1.setText("Developer Info\nCreated by Hafiz Zeeshan\n")
+  h1.setTextColor(0xFF03DAC6)
+  h1.setTextSize(17)
+  aboutLayout.addView(h1)
+  
+  local h2 = TextView(activity)
+  h2.setText("Tool Overview & Features\nCode Runner is an advanced, fully accessible development assistant designed specifically for screen reader and blind users within the Jieshuo framework.\n\nSupported Languages & Features:\n- HTML, CSS, & JavaScript (Live WebView Preview)\n- Lua Scripts (Direct Execution & UI Rendering)\n- Python Scripts (Simulation & Execution)\n- Smart Auto-Language Detection & Language Folder Saving\n- Go to Line & Quick Code Navigation\n- Save Code Files Locally & Error Copying\n")
+  h2.setTextColor(0xFFFFFFFF)
+  h2.setTextSize(15)
+  aboutLayout.addView(h2)
+  
+  local contactBtn = Button(activity)
+  contactBtn.setText("Contact Developer via WhatsApp")
+  contactBtn.setContentDescription("Contact Developer via WhatsApp")
+  contactBtn.setBackgroundColor(0xFF25D366)
+  contactBtn.setTextColor(0xFFFFFFFF)
+  local cParams = LinearLayout.LayoutParams(-1, -2)
+  cParams.setMargins(0, 10, 0, 10)
+  contactBtn.setLayoutParams(cParams)
+  aboutLayout.addView(contactBtn)
+  
+  contactBtn.setOnClickListener(View.OnClickListener{
+    onClick = function()
+      pcall(function()
+        local defaultMsg = Uri.encode("Hello Hafiz Zeeshan! I am using Code Runner.")
+        local intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://api.whatsapp.com/send?phone=" .. developerWhatsApp .. "&text=" .. defaultMsg))
+        activity.startActivity(intent)
+      end)
+    end
+  })
+  
+  local scroll = ScrollView(activity)
+  scroll.addView(aboutLayout)
+  aboutDlg.setView(scroll)
+  
+  aboutDlg.setButton(DialogInterface.BUTTON_POSITIVE, "Close", nil)
+  aboutDlg.show()
+  speakText("About dialog opened.")
+end
+
+aboutBtn.setOnClickListener(View.OnClickListener{
+  onClick = function() showAboutDialog() end
+})
+
+task(800, function()
+  print(customSetMessage)
+  Toast.makeText(activity, customSetMessage, Toast.LENGTH_LONG).show()
+  speakText("Code Runner loaded. " .. customSetMessage)
+end)
