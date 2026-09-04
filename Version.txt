@@ -1,1 +1,2 @@
-1.1
+1.2
+what's new The issues that were happening during the update have been resolved
